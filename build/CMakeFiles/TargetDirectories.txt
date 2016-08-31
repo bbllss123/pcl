@@ -1,3 +1,3 @@
-/home/brooke/Desktop/pcl_test/test/build/CMakeFiles/planar_segmentation.dir
-/home/brooke/Desktop/pcl_test/test/build/CMakeFiles/tracking_adv.dir
-/home/brooke/Desktop/pcl_test/test/build/CMakeFiles/tracking_sample.dir
+/home/brooke/Desktop/pcl/build/CMakeFiles/planar_segmentation.dir
+/home/brooke/Desktop/pcl/build/CMakeFiles/tracking_adv.dir
+/home/brooke/Desktop/pcl/build/CMakeFiles/tracking_sample.dir

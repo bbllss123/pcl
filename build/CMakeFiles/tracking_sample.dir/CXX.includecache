@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/brooke/Desktop/pcl_test/test/tracking_sample.cpp
+/home/brooke/Desktop/pcl/tracking_sample.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

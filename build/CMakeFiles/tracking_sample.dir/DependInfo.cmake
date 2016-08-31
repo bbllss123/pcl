@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/brooke/Desktop/pcl_test/test/tracking_sample.cpp" "/home/brooke/Desktop/pcl_test/test/build/CMakeFiles/tracking_sample.dir/tracking_sample.cpp.o"
+  "/home/brooke/Desktop/pcl/tracking_sample.cpp" "/home/brooke/Desktop/pcl/build/CMakeFiles/tracking_sample.dir/tracking_sample.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

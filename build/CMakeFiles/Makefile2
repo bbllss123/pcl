@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl_test/test
+CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl_test/test/build
+CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/planar_segmentation.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl_test/test/build
 CMakeFiles/planar_segmentation.dir/all:
 	$(MAKE) -f CMakeFiles/planar_segmentation.dir/build.make CMakeFiles/planar_segmentation.dir/depend
 	$(MAKE) -f CMakeFiles/planar_segmentation.dir/build.make CMakeFiles/planar_segmentation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl_test/test/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl/build/CMakeFiles  1
 	@echo "Built target planar_segmentation"
 .PHONY : CMakeFiles/planar_segmentation.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/planar_segmentation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/planar_segmentation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/planar_segmentation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 0
 .PHONY : CMakeFiles/planar_segmentation.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/planar_segmentation.dir/clean
 CMakeFiles/tracking_adv.dir/all:
 	$(MAKE) -f CMakeFiles/tracking_adv.dir/build.make CMakeFiles/tracking_adv.dir/depend
 	$(MAKE) -f CMakeFiles/tracking_adv.dir/build.make CMakeFiles/tracking_adv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl_test/test/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl/build/CMakeFiles  2
 	@echo "Built target tracking_adv"
 .PHONY : CMakeFiles/tracking_adv.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/tracking_adv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tracking_adv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tracking_adv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 0
 .PHONY : CMakeFiles/tracking_adv.dir/rule
 
 # Convenience name for target.
@@ -132,7 +132,7 @@ clean: CMakeFiles/tracking_adv.dir/clean
 CMakeFiles/tracking_sample.dir/all:
 	$(MAKE) -f CMakeFiles/tracking_sample.dir/build.make CMakeFiles/tracking_sample.dir/depend
 	$(MAKE) -f CMakeFiles/tracking_sample.dir/build.make CMakeFiles/tracking_sample.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl_test/test/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl/build/CMakeFiles  3
 	@echo "Built target tracking_sample"
 .PHONY : CMakeFiles/tracking_sample.dir/all
 
@@ -142,9 +142,9 @@ all: CMakeFiles/tracking_sample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tracking_sample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tracking_sample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl_test/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brooke/Desktop/pcl/build/CMakeFiles 0
 .PHONY : CMakeFiles/tracking_sample.dir/rule
 
 # Convenience name for target.

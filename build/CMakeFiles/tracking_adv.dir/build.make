@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl_test/test
+CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl_test/test/build
+CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tracking_adv.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/tracking_adv.dir/flags.make
 
 CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o: CMakeFiles/tracking_adv.dir/flags.make
 CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o: ../tracking_adv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl_test/test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o -c /home/brooke/Desktop/pcl_test/test/tracking_adv.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o -c /home/brooke/Desktop/pcl/tracking_adv.cpp
 
 CMakeFiles/tracking_adv.dir/tracking_adv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracking_adv.dir/tracking_adv.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/brooke/Desktop/pcl_test/test/tracking_adv.cpp > CMakeFiles/tracking_adv.dir/tracking_adv.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/brooke/Desktop/pcl/tracking_adv.cpp > CMakeFiles/tracking_adv.dir/tracking_adv.cpp.i
 
 CMakeFiles/tracking_adv.dir/tracking_adv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracking_adv.dir/tracking_adv.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/brooke/Desktop/pcl_test/test/tracking_adv.cpp -o CMakeFiles/tracking_adv.dir/tracking_adv.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/brooke/Desktop/pcl/tracking_adv.cpp -o CMakeFiles/tracking_adv.dir/tracking_adv.cpp.s
 
 CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o.requires:
 .PHONY : CMakeFiles/tracking_adv.dir/tracking_adv.cpp.o.requires
@@ -229,6 +229,6 @@ CMakeFiles/tracking_adv.dir/clean:
 .PHONY : CMakeFiles/tracking_adv.dir/clean
 
 CMakeFiles/tracking_adv.dir/depend:
-	cd /home/brooke/Desktop/pcl_test/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brooke/Desktop/pcl_test/test /home/brooke/Desktop/pcl_test/test /home/brooke/Desktop/pcl_test/test/build /home/brooke/Desktop/pcl_test/test/build /home/brooke/Desktop/pcl_test/test/build/CMakeFiles/tracking_adv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/brooke/Desktop/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brooke/Desktop/pcl /home/brooke/Desktop/pcl /home/brooke/Desktop/pcl/build /home/brooke/Desktop/pcl/build /home/brooke/Desktop/pcl/build/CMakeFiles/tracking_adv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tracking_adv.dir/depend
 

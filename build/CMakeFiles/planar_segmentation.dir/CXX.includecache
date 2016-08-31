@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/brooke/Desktop/pcl_test/test/planar_segmentation.cpp
+/home/brooke/Desktop/pcl/planar_segmentation.cpp
 iostream
 -
 pcl/ModelCoefficients.h

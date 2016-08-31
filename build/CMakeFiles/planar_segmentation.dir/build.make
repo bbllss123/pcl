@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl_test/test
+CMAKE_SOURCE_DIR = /home/brooke/Desktop/pcl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl_test/test/build
+CMAKE_BINARY_DIR = /home/brooke/Desktop/pcl/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/planar_segmentation.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/planar_segmentation.dir/flags.make
 
 CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o: CMakeFiles/planar_segmentation.dir/flags.make
 CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o: ../planar_segmentation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl_test/test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/brooke/Desktop/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o -c /home/brooke/Desktop/pcl_test/test/planar_segmentation.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o -c /home/brooke/Desktop/pcl/planar_segmentation.cpp
 
 CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/brooke/Desktop/pcl_test/test/planar_segmentation.cpp > CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/brooke/Desktop/pcl/planar_segmentation.cpp > CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.i
 
 CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/brooke/Desktop/pcl_test/test/planar_segmentation.cpp -o CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/brooke/Desktop/pcl/planar_segmentation.cpp -o CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.s
 
 CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o.requires:
 .PHONY : CMakeFiles/planar_segmentation.dir/planar_segmentation.cpp.o.requires
@@ -229,6 +229,6 @@ CMakeFiles/planar_segmentation.dir/clean:
 .PHONY : CMakeFiles/planar_segmentation.dir/clean
 
 CMakeFiles/planar_segmentation.dir/depend:
-	cd /home/brooke/Desktop/pcl_test/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brooke/Desktop/pcl_test/test /home/brooke/Desktop/pcl_test/test /home/brooke/Desktop/pcl_test/test/build /home/brooke/Desktop/pcl_test/test/build /home/brooke/Desktop/pcl_test/test/build/CMakeFiles/planar_segmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/brooke/Desktop/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brooke/Desktop/pcl /home/brooke/Desktop/pcl /home/brooke/Desktop/pcl/build /home/brooke/Desktop/pcl/build /home/brooke/Desktop/pcl/build/CMakeFiles/planar_segmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/planar_segmentation.dir/depend
 
